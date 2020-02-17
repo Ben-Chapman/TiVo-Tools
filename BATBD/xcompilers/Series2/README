@@ -1,0 +1,5 @@
+The cross-compiler in usr.local.tivo-mips_bu211.tgz includes
+binutils 2.1.1.
+
+The cross-compiler in usr.local.tivo-mips_bu213.tgz includes 
+binutils 2.1.3. 

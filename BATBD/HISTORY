@@ -1,0 +1,38 @@
+Thanks to everyone who did the real development work!
+
+Initial: 
+  - Merged Kazamyr and JohnnyDeath CDs
+  - Cleaned up kernel image naming conventions
+  - Cleaned up "append" kernel boot args 
+  - Put fave x86 utilities in x86bin
+  - Updated initrd's for both with hexedit, script, etc.
+
+1.1:
+  - Created archives of my favorite Tivo-Side utilities
+  - Added archives to hack_dirs CD directory
+
+1.2:
+  - Created xcompilers CD directory and added archives
+
+1.3:
+  - Added TiVoWeb, cleaned up permissions, removed effluvia
+
+1.4:
+  - Added settings-backup, simplified Series2 hacking,
+    cleaned up initrds, added some commands, added
+    mountpoints, and added smbfs and smbmount for series1.
+
+1.5:
+  -  Added monte, killinitrd, and img_monte directories.
+
+1.6:
+  - Added popular Windows and Mac items discussed in 
+    "Hacking the TiVo".
+
+1.7:
+  - Added TiVo connectivity, updated (and patched) TiVoWeb.
+
+1.8: 
+  - Final cleanup for kickoff, cleanup permissions. Added
+    PTiVoHMO software. Thanks, Richard!
+

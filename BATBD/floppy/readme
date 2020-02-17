@@ -1,0 +1,7 @@
+To create a bootable floppy, insert a blank floppy into the A drive and open
+a DOS command window, or boot into DOS.  Change to the directory with rawrite
+and the image file in it and run:
+
+D:> rawrite
+
+When asked for a image, enter mfstools.img and then tell it A: for the drive.

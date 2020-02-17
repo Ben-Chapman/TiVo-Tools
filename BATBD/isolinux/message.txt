@@ -1,0 +1,23 @@
+Welcome to Bill's Accumulated TiVo boot disk 1.6. Hack 'em if you got 'em!
+
+This is a TiVo greatest hits CD, largely culled from Kazymyr's and
+Johnny Death's, with various utilities and pre-packaged toolchains
+added to the initrds and CD filesystem. 
+
+NOTE: This CD is provided totally without warranty. Use at your own
+      risk. It works for me. Your Mileage May Vary!
+
+If you need to pass extra parameters to the kernel, enter them at the prompt
+after the name of the kernel to boot (s1std, s1swap, or s2).  The kernel
+will usually detect your hardware without requiring parameters.  Some 
+examples of parameters are (where hdx can be any of hda through hdh):
+
+   hdx=cyls,heads,sects,wpcom,irq  (for rare cases where probing fails)
+   hdx=cdrom (force detection of an IDE/ATAPI CD-ROM drive) 
+
+Available boot options:
+
+  <enter>  Series 2 Kernel (TiVo Partition Support and Backups)
+  s1swap   Series 1 Kernel with byteswapping enabled. (TiVo Partition Support)
+  s1std    Series 1 Kernel without byteswapping, with DMA. (Backups)
+
